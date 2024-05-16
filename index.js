@@ -11,7 +11,7 @@ app.get("/",(req,res)=>{
 })
 
 app.post("/bookappointment",(req,res)=>{
-    print(req.body)
+    console.log(req.body)
     res.send({data: req.body})
 })
 
